@@ -60,4 +60,15 @@ In a file named 0-fromjs.js, create a function getImmutableObject that accepts o
     - It should return a List containing the values of the two pages
     - If two values are the same, page2 values should be used.
 
-* Task 6 - 
+* Task 6 - Create a function named mergeDeeplyElements
+    - It should accept two arguments, page1 and page2. Both are objects
+    - It should return a List containing the values of the two pages
+    - If two values are the same, they should combine each other
+
+* Task 7 - Create a function named areMapsEqual
+    - It accepts two arguments map1 and map2. Both are Immutable.js Maps
+    - It should return true if the Maps are equal
+
+* Task 8 - Create a function named printBestStudents:
+    - It accepts one object as argument.
+    - Calling the function should filter any student with a score < 70 and print to the console the first name and the last name with the first letter capitalized
